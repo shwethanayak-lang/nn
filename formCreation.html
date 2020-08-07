@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title >Buttons and Fillings</title>
+</head>
+<script>
+	function matchpass(){  
+var firstpassword=document.f2.pwd1.value;  
+var secondpassword=document.f2.pwd2.value;  
+  
+if(firstpassword==secondpassword){  
+return true;  
+}  
+else{  
+alert("password must be same!");  
+return false;   
+}  
+}  
+/*function pwdVarification(){
+let pass = document.f2.pwd1.value;
+let cpass= document.f2.pwd2 .value;
+
+if (pass==cpass)
+{
+document.getElementById('p1').innerHTML="Correct";}
+}
+else{
+	alert("passwords are not matching");
+}*?
+</script>
+<style>
+h{
+
+margin-left:80px;
+color: red;
+text-decoration: underline;
+align: center;
+}
+table{
+margin-left:150px;
+color: blue;
+text-decoration: none;
+align: left;
+
+}
+
+</style>
+
+<body style ="background-color:pink;">
+<h ><font size= "6" align="center"><b>Form Creation</b></font></h>
+
+<form  name="f2" action="#"  target ="_top" method ="post" onsubmit="matchpass()">
+<table>
+
+<tr>
+<td><label for="firstname"><font size="4"  >First Name </font></label></td>
+<td><input type= "text" name="fname" id ="firstname" value= "Shwe" readonly></td>
+</tr>
+<tr>
+<td><font size="4"  >Last Name </font></td>
+<td><input type= "text" name="lname"  required placeholder="last name"></td>
+</tr>
+
+<tr>
+<td><label for="password"><font size="4"  >Password: </font></label></td>
+<td> <input type= "password" name="pwd1" id ="password1" required></td>
+</tr>
+
+<tr>
+<td><label for="confirm password"><font size="4"  >Confirm password:</font></label></td>
+<td> <input type= "password2" name="pwd2" id ="password"></td>
+</tr>
+
+<tr>
+<td>Gender</td>
+<td><input type= "radio" name="gender" value="male"> Male </td>
+<td><input type= "radio" name="gender" value="female" > Female </td>
+</tr>
+<tr><td>
+<font>Marital Status:</font></td>
+<td>
+ <input type="checkbox" name="statue" value="married"> married
+</td>
+<td>
+ <input type="checkbox" name="statue" value="unmarried">Unmarried
+</td>
+</tr>
+<tr><td><font size= "4" color="Blue">District belongs to:</font></td>
+<td><select name="District" >
+<optgroup label="Karnataka">
+<option value="Udupi">Udupi</option>
+<option value="Shimoga">Shimoga</option>
+<option value="Belagavi">Belagavi</option>
+<option value="Mangalore">Mangalore</option>
+</optgroup>
+<optgroup label="Andhra">
+<option value="Nellore" >Nellore</option>
+<option value="Kakinad">Kakinad</option>
+<option value="kadaba">Kadaba</option>
+</optgroup>
+</select></td></tr>
+<tr><td>Me:</td>
+<td>
+<textarea name ="me" rows="6" cols="15">I was a sport person in my schooldays as well as an athlete.</textarea>
+</td>
+</tr>
+
+<tr><td><fieldset>
+<legend>Neccessary</legend>
+</fieldset>
+<td>Rate yourself in java:</td>
+<td><input type= "range" min="1" max="10" title="max"></td>
+</td>
+</tr>
+
+<tr><td>Date of Birth:-
+<input type="Date" pattern="month- day">
+</td>
+</tr>
+
+<tr><td>Your favourite colour of all time :-
+<input type="color">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="file"  name= "files">
+</td>
+</tr>
+
+<tr>
+<td>
+<input type="submit" value="Submit Form" name= "submit">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
