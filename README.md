@@ -224,3 +224,335 @@ HTML FILE:::::
 </div>
 </body>
 </html>
+
+
+
+
+
+
+CSS File::::
+
+
+
+@media (max-width: 767px) {
+  #nav li > a {
+      color: #d7e2e9;
+    }
+   
+  }
+  
+  .carousel-inner img {
+      width: 100%;
+      height: 40em;
+  }
+  .carousel-inner .carousel-caption{
+    color:black;
+    padding:20em;
+  
+  }
+  
+  .container.carousel> a >span{
+      color:green;
+  }
+  body{
+  
+      position:relative;
+    }
+  .row{
+     background:rgb(241, 238, 238);
+    padding:2em 0;
+    text-align: center;
+  }
+  .row i{
+      justify-content: space-between;
+  }
+  
+      .col-lg-6{
+        width:100%;
+        height:50em;
+        margin-top: 4em;
+        margin-right:3em;
+        margin-left:10em;
+        background:rgb(214, 212, 212); 
+       text-align:center;
+       padding: 25em 0;
+      }
+      #apple{
+        width:100%;
+        height:23em;
+        margin-top: 4em;
+        background:rgb(214, 212, 212); 
+        padding: 11.5em 0; 
+        text-align:center;
+      }
+     .col-md-12 {
+       text-align: center;
+       margin: 10em 0;
+     }
+     #grapes input[type="button"]{
+  padding:1em 5em;
+  border:.1px solid gray;
+  margin-top: 5em;
+  border-radius: .5em;
+  font-weight: bolder;
+  font-size: 1em;
+  
+     }
+      #grapes input[type="text"]{
+  padding:1em 5em;
+  border:.1px solid gray;
+  margin-top: 5em;
+  border-radius: .2em;
+  font-weight: bolder;
+  font-size: 1em;
+  
+     }
+     #grapes
+     {
+       text-align: center;
+       background:rgb(214, 212, 212);  
+       height: 30em;
+       margin-bottom: 0em;
+       
+     }
+     #grapes h2 p{
+       font-family: 'Times New Roman', Times, serif;
+       font-weight: bold;
+     }
+     #grapes h2{
+  
+     padding-top: 2em; 
+     }
+     #grapes p{
+       position: relative;
+        z-index: 1;
+  
+     }
+      #grapes p::before{
+           background:white;  
+        top: 2em;
+        content: '';
+        margin-left: 6em;
+        z-index: -1;
+        position: absolute;
+        width:4em;
+        height: .4em;
+       box-shadow: rgba(236, 228, 228, 0.1)
+  
+      }
+  
+      #mango{
+        padding: 11.5em 0;
+        text-align:center; 
+        width:100%;
+        height:23em;
+        margin-top: 4em;
+        background:rgb(214, 212, 212);  
+      }
+     #edf h1{
+        position: relative;
+        z-index: 1;
+      }
+      #edf h1::before{
+        background:rgb(241, 238, 238);
+        top: 2em;
+        content: '';
+        margin-left: 1em;
+        z-index: -1;
+        position: absolute;
+        width:3em;
+        height: .4em;
+       box-shadow: rgba(236, 228, 228, 0.1)
+  
+      }
+      #asd{
+     
+    border:none;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 2em;
+    margin-left:1em;
+    border-radius: .5em;
+    background-color:white;
+    cursor: pointer;
+    width: 45%;
+    padding:3.3em 0;
+      }
+      #krish{
+        width:100%;
+        height:20em;
+        background:rgb(10, 10, 10); 
+       text-align:center;
+            margin-top:0em;
+  color:white;
+  padding-top: 5em;
+  padding-bottom: 25em;
+  margin-bottom: 0em;
+      }
+      #arra2  h1{
+          float: left;
+        color:white;
+        padding-top: .5em;
+  
+      }
+     #arra2 small{
+      color:gray;
+      font-size: 1.2em;
+       padding:2em 0 0 1em;
+     }
+   .col-md-12 h1::before{
+        background:rgb(241, 238, 238);
+        top: 2em;
+        content: '';
+        margin-left: 1em;
+        z-index: -1;
+        position: absolute;
+        width:3em;
+        height: .4em;
+       box-shadow: rgba(236, 228, 228, 0.1)
+      } 
+    .pill{
+        background-color: rgb(125, 243, 237);
+        border-radius: 50%;
+        border: skyblue;
+        position: absolute;
+        float: top;  
+      }
+      #bna1, #bna2, #bna3{
+        width:100%;
+        height:5em;
+        margin-top: 4em;
+        background:rgb(214, 212, 212); 
+        padding: 15em 10em; 
+        text-align:center;
+        margin-right: 2em;
+        margin-left:8em ;
+  
+      }
+      #kiwi1, #kiwi2, #kiwi3, #kiwi4{
+        width:20%;
+        height:40em;
+        margin-top: 4em;
+        background:rgb(214, 212, 212); 
+        padding: 15em 10em; 
+        text-align:center;
+        margin-right: 2em;
+        margin-left:4em ;
+      }
+      #1,#2,#3,#4{
+        width:100%;
+        height:10em;
+        margin-top:.20em;
+        background:rgb(214, 212, 212); 
+        padding: 25em 15em; 
+        text-align:center;
+        margin-right: 20em;
+        margin-left:20em ;
+      }
+      #5,#6, #7{
+        width:100%;
+        height:20em;
+        margin-top:.20em;
+        background:rgb(214, 212, 212); 
+        padding:50em 15em;
+        text-align:center;
+        margin-left:50em;}
+   
+      #navbar{
+        font-weight: bold;
+        background-color: black;
+  font-size: 1em;}
+  
+  #navbar li a {
+  color:white;
+   text-align: center;
+   padding:.5em;
+     } 
+      #arra i{
+        padding:1em;
+        font-weight: bold;
+        color: white;
+       
+      }
+      #arra p{
+        font-size: 1.2em;
+  color:gray;
+  padding: 1.5em;
+      }
+  .container-1{
+    padding-top: 10em;
+  }
+      
+      #rew, #app{
+        padding:2em;
+        font-weight: normal;
+        text-align: center;
+        font-size: 1.5em;
+      }
+      #tre{
+        text-align: center;
+        font-weight: bold;
+        font-size: 2em;
+        padding-top: 1em;
+      }
+     #dog, #dog1, #dog2{
+       background:rgb(10, 10, 10); 
+        color:white;
+        width:100%;
+        height:2em;
+        text-align: center;
+        margin-bottom: 0em;
+        padding: 0 .5em;
+      }
+      #dog2 i, #dog i{
+        padding-right: 1em;
+      }
+      #dog{
+        font-size: 1.5em;
+  
+      }
+      #dog1 p{
+        font-size: 1em;
+        padding: .5em 0;
+      }
+      #dog2{
+         background:rgb(51, 49, 49);  
+         font-size: 2em;
+         padding-top: 0em;
+         width:100%;
+        height:2em;
+         margin-bottom: 0em;
+         padding-bottom: 0em;
+       }
+  
+      #navbar { 
+      padding: 9px; 
+      outline: 0; 
+      } 
+      #nav ul li a{
+   padding:1.5em;    }
+  
+  
+      #navbar ul li a{
+   padding:2em;    }
+      
+  #navbar {
+    background:rgb(10, 10, 10);            
+   margin:0 20em; 
+   padding:0 13em;
+   font-weight: bold;
+   font-size: 1.5em;
+  padding-right: 1em;
+  padding-top: 2em;
+  margin-left: 15em;
+  }
+  
+  #rew{ padding:2em; }
+  
+  @media(min-width:400px ){
+  
+  
+  }
+  @media(max-width:930px ){
+    
+  }
