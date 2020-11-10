@@ -1,0 +1,332 @@
+******************************* HTML FILE ***************************************************
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Html emailer</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href=".css">
+</head>
+<body>
+    <button class="button" id="btn1">Logo</button>
+
+ <div class="container-1">
+    
+           <header>IMAGE</header>
+
+           <section id="top" class="container"> </section>
+
+    <footer id="page1"> 
+        <div class="container-3">
+            <div class="row">
+                <div class="col-lg-12 bg-black" >
+                         <i class="fas fa-hourglass-end" style="font-size:48px;color:red"></i></div>
+                         <div class="col-lg-12 bg-black" > <h2>
+                    <pre>
+                         Lorem ipsum dolor sit amet,
+                         consectetur adipisicing elit<sup>1</sup>
+                    </pre>
+            </h2>
+            </div>
+        </div>
+             <p>
+                    <pre>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                          tempor incididunt ut labore<sup>4-6</sup>
+                    </pre>
+            </p>
+     </footer>
+
+ </div>
+
+
+<div class="container-2">
+   
+    <section id="bottom">
+        <h1>
+            <pre>
+                Lorem ipsum dolor sit amet,consectetur
+                 adipisicing elit,sed do eiusmod tempor 
+                       incididunt ut labore
+            </pre>
+        </h1>
+
+            <button class="button" id="btn2" >READ MORE</button>
+
+         <section id="bottom-2" class="container">
+            <p>ILorem ipsum dolor sit amet.</p>
+            <pre>
+            <h6><b>References:</b></h6>
+            <p>1.  Lorem ipsum dolor sit amet Lorem ipsum <em>dolor sit amet</em>2011;184(7):842-847.</p>
+            <p>2.  Lorem ipsum dolor sit amet Lorem ipsum <em>dolor sit amet</em>2011;184(7):842-847.</p>
+            </pre>
+         </section>
+
+    </section>
+
+    <footer   id="page2">
+        <p> XX-XXX-100425 Date of preparation Month 2020</p>
+         <button class="button" id="btn3">Logo</button>
+    </footer>
+
+</div>
+
+</body>
+</html>
+
+
+
+*************************************************************CSS FILE *****************************************************
+
+
+#page1{
+background-color:#DCDCDC;
+padding:1em; 
+}
+#page1 h2 pre{
+    padding: 1em;   
+    padding-left: .2em;
+    padding-top:.05em;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:block;
+    padding-bottom:0.1em;
+  
+}
+.container-3{
+    display:inline;
+}
+
+#page1 pre {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:none;
+    padding: .2em ;
+    font-size: 15px;
+    padding-left:.2em;
+    text-align:left;
+}
+
+#bottom-2 p, h6{
+    margin-top: 10em;
+    margin-bottom:1em;
+    padding:1px;
+    color:white;
+    font-weight: none;
+    float:left;
+    font-size:12px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:.5px;
+}
+#bottom-2 h6{
+ margin-top:.5em;
+}
+#page2 {
+    background-color: white;
+   padding:2em;
+   display: -moz-inline-block;   
+}
+h1 pre{
+    padding: 2em;
+    text-align:center;
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left:.01em;
+    padding-right: 10em;
+}
+#top{
+    background:#D8094E;
+    text-align:center;
+    position:relative;
+    padding:4em;
+}
+#top:before{
+    position: absolute;
+    content:'';
+    width:100%;
+    height:130px;
+    top:-55px;
+    left:0;
+    background-color:#D8094E;
+    transform:skewY(170deg);   
+}
+#bottom-2{
+    background:black;
+    text-align:center;
+    position:relative;
+    padding:4em 0;
+}
+#bottom-2:before{
+    position: absolute;
+    content:'';
+    width:100%;
+    height:125px;
+    top:-55px;
+    left:0;
+    background-color:black;     
+    transform:skewY(10deg);
+    padding-bottom:1em;
+    padding-top:.1em;  
+}
+
+header{
+color:white;
+    padding: 12em;
+    text-align:center;
+    font-weight: 500;
+    background-color: #FF33D4;
+    font-size: larger;
+   padding-bottom:5em;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+
+    margin:5em 10em;
+}
+#bottom pre{
+    align:center;
+    font-size:20px;
+    color:#123412;
+    font-family:Arial Black ;
+}
+
+.container-1{
+margin-bottom: 5em;
+    background-color:#FF33D4;
+   width: 60%; 
+}
+.container-2{
+width: 60%;
+height:60%;
+padding-bottom: 0;
+background-color:#BBC635;
+}
+#btn2{
+    background-color: #123412;
+   color:white;
+   border:none;
+   padding:1em;
+   padding-top:5px;
+float: center;
+margin:15em;
+margin-top:.1em;
+margin-bottom:17em;
+margin-left:17em;
+}
+
+
+#btn1:hover{
+    color: burlywood;
+    background-color: green ; /*added hover effect for menu*/
+}
+#btn1,#btn3{
+background-color:#6F776F;
+padding:1em;
+padding-left: 5px;
+padding-top: .1em;
+padding-bottom: .1em;
+width:5em;
+height:1.5em;
+color:white;
+font-weight: bolder;
+font-size:20px;
+margin:1em;
+margin-left:1em;
+border:none;
+}
+#btn3{
+    float:right;
+    display:inline-flex;
+   padding-right:0em;
+   margin-bottom: 5em;
+}
+#page2 p{
+    margin-top: 1em;
+    margin-left:0px;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 748px){
+    .container-1{
+        margin-bottom: 5em;
+            background-color:#FF33D4;
+           width: 100%; 
+        }
+        .container-2{
+        width: auto;
+        height:60%;
+        padding-bottom: 0;
+        background-color:#BBC635;
+        }
+   
+        #page1 h2 pre{
+            width:7px;
+          text-align: center;
+            font-size: 17px;
+            margin-left:.5em;
+            margin:.5em;
+        }
+
+        #page1 pre {
+            font-size: 10px;
+         margin-left:.1px;
+         margin-right:5px;
+        }
+
+        #bottom pre{
+justify-content: center;
+            margin-left:1px;
+            font-size:15px;
+            color:#123412;
+            font-family:Arial Black ;
+            margin-right:15px;
+            width:5em;
+        }
+        #btn2{
+            background-color: #123412;
+           color:white;
+           border:none;
+           width:12em;
+           padding:1em;
+           padding-top:10px;
+        float: center;
+        margin:15em;
+        margin-top:.1em;
+        margin-bottom:17em;
+        margin-left:12em;
+        text-align:center;
+        }
+
+        #bottom-2 p, h6{
+            margin-top: 15em;
+            margin-bottom:1em;
+            padding:1em;
+        display:block;
+        width:auto;
+            margin:.1px;
+        }
+      
+        #page2 {
+           padding:2em;
+           display: block;  
+        }     
+
+header{
+   display:block;
+        padding-bottom: 5em;
+        width:10%;
+        padding: 10em;
+       
+    }
+    
+    i {
+        visibility: hidden;
+        display:none;
+    }
+
+}
+
+
