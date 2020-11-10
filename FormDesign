@@ -1,0 +1,165 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> HTML FILE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front End Form</title>
+      <link rel="stylesheet" href="Design.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="container-1">
+<form>
+            <i class="fas fa-comment-lines"></i><p id="pa">To start your free sales trial</p><br><br>
+            <label for="firstname" >First Name </label>
+            <label for="lastname" id="ln">Last Name </label><br>
+            <input type= "text" name="fname" id ="firstname" placeholder="Enter Your First Name">
+            <input type= "text" name="lname" id ="lastname" placeholder="Enter Your Last Name"><br><br>
+            <label for="Email ID" >Work Email </label>
+            <label for="salutation" id="sl">Salutation </label><br>
+            <input type= "email" name="emailid" id ="eid" placeholder="name/zyz.com">
+            <select name="salutation" id="sl1">
+                <option value="Mr1">Select your job title</option>
+                <option value="Mr">Mr</option>
+                <option value="Mrs">Mrs</option>
+            </select><br><br>
+            <i class="fas fa-exclamation-circle"></i><p style="color : red; font-size: small; float:center;" >Please Enter valid email</p>
+           <br><br>
+          <label for="company" id="comp">Company</label><br>
+          <input type= "text" name="compny" id ="compny" placeholder="Enter Your company name" style="width:20em"><br><br>
+          <label for="employees">No Of Employees </label><br>
+          <input type= "number" name="num" id ="num1" placeholder="Select No. Of employees in your company" style="width:20em"><br><br>
+          <label for="bd" id="bd">Birthdate </label>
+          <label for="vendors" id="cv">CRM Vendor</label><br>
+          <input type="Date" placeholder=""  id="bd1" >
+             <input type="text" placeholder="CRM Vendor"  id="cv1"><br><br>
+          <label for="phone" id="pn">Phone Number</label>
+          <label for="country" id="cn">Country</label><br>
+          <input type="phone" placeholder="9xxxxxxxxx" id="pn1">
+          <select name="scountry" id="cn1">
+            <option value="sc">Select your country</option>
+          
+      </select>
+<br><br>
+      <input type="checkbox" id="check"><p>I agree to the Master subscription Agreement</p>
+      <button type="button" >Start my free trial</button>
+      </form>
+  </div>
+    </div>
+</body>
+
+
+
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>CSS FILE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+.container-fluid{
+background-color: rgb(42, 31, 197);
+position: absolute;
+width:70%;
+height: 50%;
+margin: 3em;
+margin: 0 5em;
+padding: 7em;
+margin-top: 1em;
+padding-bottom:20em;
+opacity:1;
+padding-top:.5em;
+background-image:url("https://www.rationalrealm.com/images/feature/content/electronic_circuit_brain_med.jpg");
+background-repeat: no-repeat;
+background-position: -1% 10%;
+}
+
+.container-1{
+    margin-top:1em;
+position: relative;
+float: right;
+width: 20em;
+height:32em;
+padding:4em;
+padding-top:1em;
+background-color: rgb(16, 6, 68);
+box-shadow:rgba(80, 45, 136, 0.144);
+margin:.5em 0;
+opacity:1;
+}
+i
+{
+background-color: red;
+float:left;
+}
+button{
+    background-color: rgb(241, 79, 20);
+    color:wheat;
+    border:none;
+    border-radius: .2em;
+    padding: .5em 5em;
+
+}
+#pa{
+
+    padding-top:.5px;
+    margin:.1em;
+    font-size: 1em;
+}
+
+input{
+    color:gray;
+    padding: .6em;
+    background-color: rgb(16, 6, 68);
+    border-radius: .2em;
+    width:10em;
+    text-align: center;
+    font-size: .8em;
+    border:.1px solid gray;
+    justify-items: space-between;
+}
+label{
+    color:white;
+    font-size: 1em;
+    float: left;
+}
+form{
+    padding:.2em .5em;
+    margin-left: .1em;
+    float:left;
+    justify-content: space-around;
+
+}
+#eid{
+    border: 1px solid red;
+}
+p{
+    color:white;
+    font-size:.8em;
+    padding-left:.05em;
+    padding-top:.1em;
+    margin-top: .5em;
+    float:left;
+}
+#check{
+      background-color: rgb(16, 6, 68);
+     float:left;
+     margin-left:.1em;
+     padding:.5em;
+}
+select{
+    background-color: rgb(16, 6, 68);
+    color:gray;
+    margin-right:1em;
+    padding: .3em;
+}
+#fn, #comp, #eid ,i{
+    float:left;
+    margin-left: .1em;
+}
+#ln, #lastname, #sl, #sl1,#cv, #cv1,#cn,#cn1{
+    float:right;
+    margin-right: .1em;
+}
