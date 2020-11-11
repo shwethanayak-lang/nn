@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="E:\FrontendEngineering\ss.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <title>Me Shwetha</title>
+ <h1 id='hh'>Hello</h1>
+</head>
+
+<body id="body">
+	
+<script>
+
+function ansMe(){
+var ch=prompt("What is your age?");
+document.getElementById('qq').innerHTML = ch;
+}
+document.write("I am happy");// use write to display
+
+function changeBackground(color){
+	//var head= document.getElementById('hh');
+	//head.style.color=color.value;
+
+	var body = document.getElementById('body');
+	  body.style.backgroundColor=color.value;
+}
+function go(){
+var muh= prompt('How are you?');
+document.getElementById('ryt').innerHTML=muh;
+}
+</script>
+<div class="container">
+<button class="btn btn-primary" onclick="alert('How are you?')">click me</button><br><br>
+<button class="btn btn-success" onmouseover="document.getElementById('hh').innerHTML='Head Changed'">glide</button><br><br>
+<button class="btn btn-danger"  id="qun" onmousedown="go()">Feel</button>
+<p id='ryt'></p><br><br>
+<button class="btn btn-info" onclick="ansMe()" id ="qq">see the magic</button><br><br>
+<label>Select the background color</label>
+<select name ='Background' id ="background" onchange="changeBackground(this)">
+	<option value= "orange">Orange</option>
+	<option>Green</option>
+	<option>Purple</option>
+	<option>pink</option>
+</select>
+</div>
+</body>
+</html>
