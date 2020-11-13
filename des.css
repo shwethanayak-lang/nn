@@ -1,0 +1,105 @@
+#aaa{
+    background-color:rgb(16, 134, 202);
+}
+.container{
+color:grey;
+background-color: rgb(207, 198, 198);
+max-width:150px;
+height:25%;
+margin:10em 10em;
+padding:1em;
+justify-content:center;
+margin-top:1em;
+}
+h1{
+   
+   color:blueviolet;
+    font-weight:none;
+    font-family:sans-serif;
+    font-size:1em;
+   padding:1em;
+    text-align:center;
+    margin-bottom:.5em;
+
+}
+small{
+    color:rgba(18, 156, 248, 0.87);
+    text-align:center;
+    font-weight:bold;
+    padding-top:2em;
+}
+h2{
+    font-weight:1em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1em;
+    text-align:center;
+    padding:.5em;
+}
+form{
+    padding:.1em;
+    text-align:center;
+}
+p{
+    font-size: 1em;
+    text-align: left;
+}
+button{
+    padding:.5em 3em;
+    width:10em;
+    border:none;
+    border-radius:.5em;
+    height:3em;
+    text-align:center;
+    color:white;
+    font-weight: bold;
+    
+}
+input{
+padding:.5em 2em;
+font-size:5em;
+font-weight:600;
+padding-left:.5em;
+text-align:left;
+margin-right:0em;
+border:none;
+outline:0;
+height:3em;
+
+}   
+
+.input-icons i { 
+    position: absolute; 
+} 
+  
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 10px; 
+} 
+#aaa h1 pre{
+    font-size:20px;
+    color:white;
+}
+  
+.icon { 
+    padding: 10px; 
+    padding:1em 0;
+    min-width: 30px; 
+    margin-left: 0em;
+    padding-left: 0em;
+    background-color: white;
+     
+} 
+.forms p{
+    margin-left:0;
+    padding-bottom:0em;
+    
+}
+  
+.input-field { 
+    width: 100%; 
+    padding: 10px; 
+    text-align: left; 
+    margin-right: 0em;
+    padding-right: 0em;
+} 
+
