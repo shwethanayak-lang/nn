@@ -1,0 +1,41 @@
+.......................App.js...................
+
+import React, { useState } from "react";
+
+function App() {
+  const state = useState();
+  let time = new Date().toLocaleTimeString();
+  const [ctime, setTime] = useState(time);
+
+  const UpdateTime = () => {
+    time = new Date().toLocaleTimeString();
+    setTime(time);
+    //console.log(setCount);
+  };
+  setInterval(UpdateTime);
+  return (
+    <>
+      <h1 className="showtime"> {ctime}</h1>
+    </>
+  );
+}
+
+export default App;
+
+
+
+..............................index.js .....................
+  import React, { useState } from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
+
+reportWebVitals();
