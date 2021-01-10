@@ -1,0 +1,82 @@
+................................................App.js ...........................................
+
+
+import logo from "./logo.svg";
+import "./App.css";
+import { useState } from "react";
+
+function App() {
+  const [num, setNum] = useState(0);
+
+  const increment = () => {
+    if (num >= 0) {
+      console.log(num + 1);
+      setNum(num + 1);
+    } else {
+      setNum(0);
+    }
+  };
+
+  const decrement = () => {
+    if (num > 0) {
+      console.log(num - 1);
+      setNum(num - 1);
+    } else {
+      setNum(0);
+    }
+  };
+  return (
+    <div class="block">
+      <p class="show">{num}</p>
+      <button class="btn1" onClick={increment}>
+        +
+      </button>
+      <button class="btn2" onClick={decrement}>
+        -
+      </button>
+    </div>
+  );
+}
+
+export default App;
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>App.css >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+.block {
+  background-color: aqua;
+  margin: 7em 25em;
+  padding: 8em;
+  height: 15em;
+}
+.show {
+  color: rgb(235, 222, 222);
+  background-color: rgb(72, 70, 99);
+  margin-top: 0.1em;
+  padding: 0.8em 5em;
+  text-align: center;
+  font-size: 1.5em;
+  border-radius: 0.5em;
+}
+
+.btn1,
+.btn2 {
+  color: rgb(235, 222, 222);
+  background-color: rgb(72, 70, 99);
+  border: none;
+  margin-top: 5em;
+  margin-bottom: 3em;
+  padding: 0.8em 1.5em;
+  text-align: center;
+  float: left;
+  border-radius: 0.5em;
+  font-size: 1.5em;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn2 {
+  background-color: rgb(72, 70, 99);
+  float: right;
+}
